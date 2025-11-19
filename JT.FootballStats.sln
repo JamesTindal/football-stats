@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JT.FootballStats.API", "JT.FootballStats.API\JT.FootballStats.API.csproj", "{AE92EADA-FCAD-4FC8-ACAC-67DF4979012C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JT.FootballStats.Core", "JT.FootballStats.Core\JT.FootballStats.Core.csproj", "{0D114689-322E-4A28-B2C3-CE4533F064AE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AE92EADA-FCAD-4FC8-ACAC-67DF4979012C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE92EADA-FCAD-4FC8-ACAC-67DF4979012C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE92EADA-FCAD-4FC8-ACAC-67DF4979012C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE92EADA-FCAD-4FC8-ACAC-67DF4979012C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D114689-322E-4A28-B2C3-CE4533F064AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D114689-322E-4A28-B2C3-CE4533F064AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D114689-322E-4A28-B2C3-CE4533F064AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D114689-322E-4A28-B2C3-CE4533F064AE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
