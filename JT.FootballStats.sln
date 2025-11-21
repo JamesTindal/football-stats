@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JT.FootballStats.API", "JT.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JT.FootballStats.Core", "JT.FootballStats.Core\JT.FootballStats.Core.csproj", "{0D114689-322E-4A28-B2C3-CE4533F064AE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JT.FootballStats.Integration", "JT.FootballStats.Integration\JT.FootballStats.Integration.csproj", "{1506CADC-FD5A-4214-BF7E-3EE726779CE6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{0D114689-322E-4A28-B2C3-CE4533F064AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D114689-322E-4A28-B2C3-CE4533F064AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D114689-322E-4A28-B2C3-CE4533F064AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1506CADC-FD5A-4214-BF7E-3EE726779CE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1506CADC-FD5A-4214-BF7E-3EE726779CE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1506CADC-FD5A-4214-BF7E-3EE726779CE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1506CADC-FD5A-4214-BF7E-3EE726779CE6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

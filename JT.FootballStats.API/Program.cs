@@ -1,9 +1,17 @@
+using JT.FootballStats.Core.Config;
+using JT.FootballStats.Integration.Clients;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+builder.Services.AddHttpClient<ApiFootballClient>();
+
+builder.Services.Configure<ApiFootballConfig>(
+    builder.Configuration.GetSection("ApiFootball")
+);
 
 var app = builder.Build();
 

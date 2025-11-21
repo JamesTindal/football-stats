@@ -1,82 +1,9 @@
 {
   "format": 1,
   "restore": {
-    "/Users/jamestindal/dev/football-stats/JT.FootballStats.API/JT.FootballStats.API.csproj": {}
+    "/Users/jamestindal/dev/football-stats/JT.FootballStats.Integration/JT.FootballStats.Integration.csproj": {}
   },
   "projects": {
-    "/Users/jamestindal/dev/football-stats/JT.FootballStats.API/JT.FootballStats.API.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "/Users/jamestindal/dev/football-stats/JT.FootballStats.API/JT.FootballStats.API.csproj",
-        "projectName": "JT.FootballStats.API",
-        "projectPath": "/Users/jamestindal/dev/football-stats/JT.FootballStats.API/JT.FootballStats.API.csproj",
-        "packagesPath": "/Users/jamestindal/.nuget/packages/",
-        "outputPath": "/Users/jamestindal/dev/football-stats/JT.FootballStats.API/obj/",
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-          "/Users/jamestindal/.nuget/NuGet/NuGet.Config"
-        ],
-        "originalTargetFrameworks": [
-          "net8.0"
-        ],
-        "sources": {
-          "https://api.nuget.org/v3/index.json": {}
-        },
-        "frameworks": {
-          "net8.0": {
-            "targetAlias": "net8.0",
-            "projectReferences": {
-              "/Users/jamestindal/dev/football-stats/JT.FootballStats.Core/JT.FootballStats.Core.csproj": {
-                "projectPath": "/Users/jamestindal/dev/football-stats/JT.FootballStats.Core/JT.FootballStats.Core.csproj"
-              },
-              "/Users/jamestindal/dev/football-stats/JT.FootballStats.Integration/JT.FootballStats.Integration.csproj": {
-                "projectPath": "/Users/jamestindal/dev/football-stats/JT.FootballStats.Integration/JT.FootballStats.Integration.csproj"
-              }
-            }
-          }
-        },
-        "warningProperties": {
-          "warnAsError": [
-            "NU1605"
-          ]
-        }
-      },
-      "frameworks": {
-        "net8.0": {
-          "targetAlias": "net8.0",
-          "dependencies": {
-            "Microsoft.AspNetCore.OpenApi": {
-              "target": "Package",
-              "version": "[8.0.15, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.6.2, )"
-            }
-          },
-          "imports": [
-            "net461",
-            "net462",
-            "net47",
-            "net471",
-            "net472",
-            "net48",
-            "net481"
-          ],
-          "assetTargetFallback": true,
-          "warn": true,
-          "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
-            "Microsoft.NETCore.App": {
-              "privateAssets": "all"
-            }
-          },
-          "runtimeIdentifierGraphPath": "/opt/homebrew/Cellar/dotnet@8/8.0.15/libexec/sdk/8.0.115/PortableRuntimeIdentifierGraph.json"
-        }
-      }
-    },
     "/Users/jamestindal/dev/football-stats/JT.FootballStats.Core/JT.FootballStats.Core.csproj": {
       "version": "1.0.0",
       "restore": {

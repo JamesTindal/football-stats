@@ -10,10 +10,11 @@
 using System;
 using System.Reflection;
 
+[assembly: Microsoft.Extensions.Configuration.UserSecrets.UserSecretsIdAttribute("9873ae9c-1874-4fb2-aab6-b2512c07445d")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("JT.FootballStats.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bfdad21c4ac3f49d58e413c9f3084fbd1b08a0ac")]
 [assembly: System.Reflection.AssemblyProductAttribute("JT.FootballStats.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("JT.FootballStats.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
