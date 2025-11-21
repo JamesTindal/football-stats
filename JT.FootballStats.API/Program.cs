@@ -1,6 +1,3 @@
-using JT.FootballStats.Core.Config;
-using JT.FootballStats.Integration.Clients;
-
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.

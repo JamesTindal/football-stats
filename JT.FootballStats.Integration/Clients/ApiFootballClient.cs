@@ -1,7 +1,4 @@
-using Microsoft.Extensions.Options;
-using JT.FootballStats.Core.Config;
-
-namespace JT.FootballStats.Integration.Clients;
+namespace JT.FootballStats.Ingestion.Clients;
 
 public class ApiFootballClient
 {
@@ -19,7 +16,7 @@ public class ApiFootballClient
     public async Task<HttpResponseMessage> GetCurrentPremierLeagueStandingsAsync()
     {
         var leagueId = 39;
-        var season = DateTime.Now.Year;
+        var season = "2023";
         var endpoint = $"/standings?league={leagueId}&season={season}";
         var response = await _httpClient.GetAsync(endpoint);
         response.EnsureSuccessStatusCode();

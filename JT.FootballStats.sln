@@ -7,15 +7,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JT.FootballStats.API", "JT.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JT.FootballStats.Core", "JT.FootballStats.Core\JT.FootballStats.Core.csproj", "{0D114689-322E-4A28-B2C3-CE4533F064AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JT.FootballStats.Integration", "JT.FootballStats.Integration\JT.FootballStats.Integration.csproj", "{1506CADC-FD5A-4214-BF7E-3EE726779CE6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JT.FootballStats.Ingestion", "JT.FootballStats.Integration\JT.FootballStats.Ingestion.csproj", "{1506CADC-FD5A-4214-BF7E-3EE726779CE6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JT.FootballStats.Tests", "JT.FootballStats.Tests\JT.FootballStats.Tests.csproj", "{FFC76B4E-AC9A-4882-BF04-9B14EEB03165}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{AE92EADA-FCAD-4FC8-ACAC-67DF4979012C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -30,5 +29,12 @@ Global
 		{1506CADC-FD5A-4214-BF7E-3EE726779CE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1506CADC-FD5A-4214-BF7E-3EE726779CE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1506CADC-FD5A-4214-BF7E-3EE726779CE6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFC76B4E-AC9A-4882-BF04-9B14EEB03165}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFC76B4E-AC9A-4882-BF04-9B14EEB03165}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFC76B4E-AC9A-4882-BF04-9B14EEB03165}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFC76B4E-AC9A-4882-BF04-9B14EEB03165}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 EndGlobal

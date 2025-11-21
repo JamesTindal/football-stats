@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="../buildMultiTargeting/JT.FootballStats.API.props" />
-</Project>
