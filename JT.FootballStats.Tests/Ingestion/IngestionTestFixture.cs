@@ -1,3 +1,5 @@
+namespace JT.FootballStats.Tests.Ingestion;
+
 public class IngestionTestFixture
 {
     public IServiceProvider ServiceProvider { get; }

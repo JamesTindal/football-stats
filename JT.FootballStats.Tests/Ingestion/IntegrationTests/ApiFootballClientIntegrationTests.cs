@@ -1,3 +1,5 @@
+namespace JT.FootballStats.Tests.Ingestion.IntegrationTests;
+
 public class ApiFootballClientIngestionTests : IClassFixture<IngestionTestFixture>
 {
     private readonly IngestionTestFixture _fixture;
