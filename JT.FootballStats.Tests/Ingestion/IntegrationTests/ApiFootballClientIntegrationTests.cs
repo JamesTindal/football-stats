@@ -1,8 +1,8 @@
-public class ApiFootballClientIntegrationTests : IClassFixture<IngestionTestFixture>
+public class ApiFootballClientIngestionTests : IClassFixture<IngestionTestFixture>
 {
     private readonly IngestionTestFixture _fixture;
 
-    public ApiFootballClientIntegrationTests(IngestionTestFixture fixture)
+    public ApiFootballClientIngestionTests(IngestionTestFixture fixture)
     {
         _fixture = fixture;
     }

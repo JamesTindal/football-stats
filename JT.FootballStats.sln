@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JT.FootballStats.API", "JT.
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JT.FootballStats.Core", "JT.FootballStats.Core\JT.FootballStats.Core.csproj", "{0D114689-322E-4A28-B2C3-CE4533F064AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JT.FootballStats.Ingestion", "JT.FootballStats.Integration\JT.FootballStats.Ingestion.csproj", "{1506CADC-FD5A-4214-BF7E-3EE726779CE6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JT.FootballStats.Ingestion", "JT.FootballStats.Ingestion\JT.FootballStats.Ingestion.csproj", "{1506CADC-FD5A-4214-BF7E-3EE726779CE6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JT.FootballStats.Tests", "JT.FootballStats.Tests\JT.FootballStats.Tests.csproj", "{FFC76B4E-AC9A-4882-BF04-9B14EEB03165}"
 EndProject
