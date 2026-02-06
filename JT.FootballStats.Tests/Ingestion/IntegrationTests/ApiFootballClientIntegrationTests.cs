@@ -1,13 +1,8 @@
 namespace JT.FootballStats.Tests.Ingestion.IntegrationTests;
 
-public class ApiFootballClientIngestionTests : IClassFixture<IngestionTestFixture>
+public class ApiFootballClientIngestionTests(IngestionTestFixture fixture) : IClassFixture<IngestionTestFixture>
 {
-    private readonly IngestionTestFixture _fixture;
-
-    public ApiFootballClientIngestionTests(IngestionTestFixture fixture)
-    {
-        _fixture = fixture;
-    }
+    private readonly IngestionTestFixture _fixture = fixture;
 
     [Fact]
     public async Task GetPremierLeagueTableAsync_ReturnsJson()

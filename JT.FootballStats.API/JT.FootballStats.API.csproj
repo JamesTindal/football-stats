@@ -9,11 +9,16 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.15" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="8.0.22">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="../JT.FootballStats.Core/JT.FootballStats.Core.csproj" />
+    <ProjectReference Include="../JT.FootballStats.Data/JT.FootballStats.Data.csproj" />
     <ProjectReference Include="../JT.FootballStats.Ingestion/JT.FootballStats.Ingestion.csproj" />
   </ItemGroup>
 
