@@ -5,16 +5,17 @@ public class ApiFootballClientIngestionTests(IngestionTestFixture fixture) : ICl
     private readonly IngestionTestFixture _fixture = fixture;
 
     [Fact]
-    public async Task GetPremierLeagueTableAsync_ReturnsJson()
+    public async Task GetPremierLeagueTableAsync_ReturnsApiResponse()
     {
         // Arrange
         var client = _fixture.ServiceProvider.GetRequiredService<ApiFootballClient>();
 
         // Act
         var response = await client.GetCurrentPremierLeagueStandingsAsync();
-        var content = await response.Content.ReadAsStringAsync();
 
         // Assert
-        Assert.NotNull(content);
+        Assert.NotNull(response);
+        Assert.NotNull(response.Response);
+        Assert.NotEmpty(response.Response);
     }
 }

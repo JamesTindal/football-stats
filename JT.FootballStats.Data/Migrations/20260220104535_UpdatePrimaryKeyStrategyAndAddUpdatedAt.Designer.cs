@@ -3,6 +3,7 @@ using System;
 using JT.FootballStats.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -10,9 +11,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace JT.FootballStats.Data.Migrations
 {
     [DbContext(typeof(FootballStatsContext))]
-    partial class FootballStatsContextModelSnapshot : ModelSnapshot
+    [Migration("20260220104535_UpdatePrimaryKeyStrategyAndAddUpdatedAt")]
+    partial class UpdatePrimaryKeyStrategyAndAddUpdatedAt
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "8.0.22");

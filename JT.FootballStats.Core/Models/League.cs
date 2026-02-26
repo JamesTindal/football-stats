@@ -11,6 +11,5 @@ public class League
 
     public required int Season { get; set; }
 
-    public required List<Standing> Standings { get; set; }
-    
+    public List<Standing> Standings { get; set; } = [];
 }

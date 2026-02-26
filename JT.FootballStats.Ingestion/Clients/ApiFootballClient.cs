@@ -1,3 +1,6 @@
+using System.Text.Json;
+using JT.FootballStats.Core.DTOs;
+
 namespace JT.FootballStats.Ingestion.Clients;
 
 public class ApiFootballClient
@@ -13,13 +16,20 @@ public class ApiFootballClient
         _httpClient.DefaultRequestHeaders.Add("x-apisports-key", _apiKey);
     }
 
-    public async Task<HttpResponseMessage> GetCurrentPremierLeagueStandingsAsync()
+    public async Task<ApiStandingsResponse?> GetCurrentPremierLeagueStandingsAsync()
     {
         var leagueId = 39;
         var season = "2023";
         var endpoint = $"/standings?league={leagueId}&season={season}";
         var response = await _httpClient.GetAsync(endpoint);
         response.EnsureSuccessStatusCode();
-        return response;
+        
+        var json = await response.Content.ReadAsStringAsync();
+        var options = new JsonSerializerOptions
+        {
+            PropertyNameCaseInsensitive = true
+        };
+        
+        return JsonSerializer.Deserialize<ApiStandingsResponse>(json, options);
     }
 }

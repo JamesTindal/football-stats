@@ -39,4 +39,6 @@ public class Standing
     public required int GoalsFor { get; set; }
 
     public required int GoalsAgainst { get; set; }
+
+    public DateTime UpdatedAt { get; set; }
 }
